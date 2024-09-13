@@ -1,0 +1,56 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    background-image: url(https://wallpapers.com/images/hd/purple-anime-city-hld4uxffs8qsb359.jpg);
+    background-repeat: no-repeat;
+    background-position: auto;
+}
+        
+/* Estilo para links */
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s ease, text-decoration 0.3s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #3498db; /* Cor do link ao passar o mouse */
+    text-decoration: underline;
+}
+
+/* Estilo para o menu */
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.menu li {
+    margin: 0 15px; /* Espaço entre os itens do menu */
+}
+
+.menu a {
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3w ease;
+}
+
+.menu a:hover {
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    
+}
+
+/* Estilo para o cabeçalho */
+.cabecalho {
+    background-color: #979bdb; /* Cor de fundo suave */
+    border-radius: 15px;
+    padding: 20px; /* Espaçamento interno */
+    box-shadow: 0 10px 16px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin-bottom: 20px; /* Espaço abaixo do cabeçalho */    
+}
